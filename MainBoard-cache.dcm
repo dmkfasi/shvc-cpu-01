@@ -1,3 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CIC
+D F411A
+$ENDCMP
+#
+$CMP FRONT_PANEL_CONNECTOR
+D Gamepad connector port
+$ENDCMP
+#
+$CMP PSRAM
+D 32Kx8 PSRAM
+K LH5P832 PSRAM
+F https://wakamatsu.co.jp/waka/LH5P832-10_to_LH5P832N-12%20(2).pdf
+$ENDCMP
+#
+$CMP S-CPU(5A22)
+D 65C816 Main CPU
+F https://wiki.superfamicom.org/65816-reference
+$ENDCMP
+#
+$CMP S-DSP
+D Sony Sound Chip
+$ENDCMP
+#
+$CMP S-PPU1(5C77)
+D Picture Processing Unit
+$ENDCMP
+#
+$CMP S-PPU2(5C78)
+D Picture Processing Unit
+$ENDCMP
+#
+$CMP S-SMP
+D Sony SPC700 Sub CPU
+$ENDCMP
+#
+$CMP S-WRAM
+D 128Kx8 DRAM
+$ENDCMP
+#
+$CMP VRAM
+D 32Kx8 SRAM
+K MS62256CL SRAM
+F https://www.futurlec.com/Datasheet/Memory/62256.pdf
+$ENDCMP
+#
 #End Doc Library
