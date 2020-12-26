@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name SNES)(type Legacy)(uri /home/carbofos/Documents/EE/shvc-cpu-01/MainBoard.lib)(options "")(descr ""))
+  (lib (name SNES)(type Legacy)(uri ${KIPRJMOD}/MainBoard.lib)(options "")(descr ""))
 )
