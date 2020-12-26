@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CARTRIDGE_SLOT
+D Game Cartridge Slot
+$ENDCMP
+#
 $CMP CIC
 D F411A
 $ENDCMP
