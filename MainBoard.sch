@@ -102,17 +102,6 @@ F 3 "" H 10770 7160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U7
-U 1 1 5FE7C1F7
-P 12770 8670
-F 0 "U7" H 12770 8995 50  0000 C CNN
-F 1 "4001" H 12770 8904 50  0000 C CNN
-F 2 "" H 12770 8670 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 12770 8670 50  0001 C CNN
-	1    12770 8670
-	1    0    0    -1  
-$EndComp
-$Comp
 L SNES:CIC U8
 U 1 1 5FE7DEEB
 P 14190 8390
@@ -132,17 +121,6 @@ F 1 "74AHC04" H 15420 9046 50  0000 C CNN
 F 2 "" H 15420 8820 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 15420 8820 50  0001 C CNN
 	1    15420 8820
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4001 U10
-U 1 1 5FE80778
-P 16610 8810
-F 0 "U10" H 16610 9135 50  0000 C CNN
-F 1 "4001" H 16610 9044 50  0000 C CNN
-F 2 "" H 16610 8810 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 16610 8810 50  0001 C CNN
-	1    16610 8810
 	1    0    0    -1  
 $EndComp
 $Comp
