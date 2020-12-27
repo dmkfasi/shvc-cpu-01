@@ -8,7 +8,7 @@ $CMP CIC
 D F411A
 $ENDCMP
 #
-$CMP FRONT_PANEL_CONNECTOR
+$CMP FRONT_PANEL
 D Gamepad connector port
 $ENDCMP
 #
