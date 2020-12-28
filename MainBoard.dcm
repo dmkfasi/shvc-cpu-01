@@ -18,6 +18,12 @@ K LH5P832 PSRAM
 F https://wakamatsu.co.jp/waka/LH5P832-10_to_LH5P832N-12%20(2).pdf
 $ENDCMP
 #
+$CMP PST529
+D Power Supervisor, MMP-3A package
+K PST529DMT
+F https://www.digchip.com/datasheets/download_datasheet.php?id=1395437&part-number=PST529
+$ENDCMP
+#
 $CMP S-CPU
 D 65C816 Main CPU
 F https://wiki.superfamicom.org/65816-reference
