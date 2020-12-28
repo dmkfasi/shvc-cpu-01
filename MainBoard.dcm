@@ -18,7 +18,7 @@ K LH5P832 PSRAM
 F https://wakamatsu.co.jp/waka/LH5P832-10_to_LH5P832N-12%20(2).pdf
 $ENDCMP
 #
-$CMP PST529
+$CMP PST529D
 D Power Supervisor, MMP-3A package
 K PST529DMT
 F https://www.digchip.com/datasheets/download_datasheet.php?id=1395437&part-number=PST529
