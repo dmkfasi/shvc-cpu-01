@@ -1,0 +1,45 @@
+Name     G18V8Test ;
+PartNo   00 ;
+Date     25/10/2014 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   G16V8 ;
+
+/* *************** INPUT PINS *********************/
+PIN 1 = PA0;
+PIN 2 = PA2;
+PIN 3 = PA4;
+PIN 4 = PA6;
+PIN 5 = PA1;
+PIN 6 = PA3;
+PIN 7 = PA5;
+PIN 8 = PA7;
+PIN 9 = PARDn;
+PIN 13 = D4In;
+
+/* *************** OUTPUT PINS *********************/
+PIN 19 = D4Out1;
+PIN 18 = D4Out2;
+PIN 17 = D4Out3;
+PIN 16 = D4Out4;
+
+
+FIELD ADDRESS = [PA7, PA6, PA5, PA4, PA3, PA2, PA1, PA0];
+
+/* Multiple outputs to get enought current */
+D4Out1 = D4In;
+D4Out1.OE = ADDRESS:'H'3F & !PARDn;
+
+D4Out2 = D4In;
+D4Out2.OE = ADDRESS:'H'3F & !PARDn;
+
+D4Out3 = D4In;
+D4Out3.OE = ADDRESS:'H'3F & !PARDn;
+
+D4Out4 = D4In;
+D4Out4.OE = ADDRESS:'H'3F & !PARDn;
+
+D4Trig = ADDRESS:'H'3F & !PARDn;
