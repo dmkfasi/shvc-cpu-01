@@ -1,4 +1,4 @@
-(module SW_Push_SPST_NO_Alps_SKRK (layer F.Cu) (tedit 5FF0B94F)
+(module SW_Push_SPST_NO_Alps_SKRK (layer F.Cu) (tedit 5FF0EDF3)
   (descr http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html)
   (tags "SMD SMT button")
   (attr smd)
@@ -28,12 +28,7 @@
   )
   (pad 2 smd roundrect (at 2.1 0) (size 0.8 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -2.1 0) (size 0.8 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_SPST_NO_Alps_SKRK.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_FSMSM.wrl
+  (model ${KIPRJMOD}/packages3d/SW_SPST_FSMSM.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.5 0.5 0.5))
     (rotate (xyz 0 0 0))

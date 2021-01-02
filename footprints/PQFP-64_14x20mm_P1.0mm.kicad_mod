@@ -87,7 +87,7 @@
   (pad 62 smd oval (at -4 -11.9) (size 0.504 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 63 smd oval (at -5 -11.9) (size 0.504 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd oval (at -6 -11.9) (size 0.504 1.9) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/package3d/pqfp-64.wrl
+  (model ${KIPRJMOD}/packages3d/pqfp-64.wrl
     (offset (xyz -7 10 0))
     (scale (xyz 0.394 0.394 0.4))
     (rotate (xyz 0 0 90))
