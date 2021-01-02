@@ -57,6 +57,11 @@ K MS62256CL SRAM
 F https://www.futurlec.com/Datasheet/Memory/62256.pdf
 $ENDCMP
 #
+$CMP SuperCIC
+D Lock chip, console side
+K PIC16F630
+$ENDCMP
+#
 $CMP UPD6376
 D 2 channel 16 bit DAC
 $ENDCMP
