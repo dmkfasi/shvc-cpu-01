@@ -6077,7 +6077,7 @@ U 1 1 6022333C
 P 18700 5100
 F 0 "F1" V 18600 5100 50  0000 C CNN
 F 1 "Polyfuse" V 18800 5100 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 18750 4900 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 18750 4900 50  0001 L CNN
 F 3 "~" H 18700 5100 50  0001 C CNN
 	1    18700 5100
 	0    1    1    0   
@@ -7155,17 +7155,6 @@ F 3 "https://www.jameco.com/Jameco/Products/ProdDS/2290263.pdf" H 9400 21500 50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS125 UP3
-U 5 1 604D413B
-P 10700 21500
-F 0 "UP3" V 10450 21600 50  0000 L CNN
-F 1 "74LS125" V 10950 21450 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10700 21500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS126a" H 10700 21500 50  0001 C CNN
-	5    10700 21500
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:VCC #PWR0197
 U 1 1 611D47D6
 P 7500 21400
@@ -7431,6 +7420,19 @@ Wire Wire Line
 	11800 3500 11800 5000
 Text Notes 16000 2500 2    50   ~ 0
 TODO:\nresearch for circuit replacement
+Text Notes 11800 3200 0    50   ~ 0
+Roughly 2.3~~2.4V\nsquare signal output
+$Comp
+L 74xx:74LS125 UP3
+U 5 1 695390A5
+P 10700 21500
+F 0 "UP3" V 10450 21600 50  0000 L CNN
+F 1 "74LS125" V 10950 21450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10700 21500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS126a" H 10700 21500 50  0001 C CNN
+	5    10700 21500
+	0    -1   1    0   
+$EndComp
 Wire Bus Line
 	5000 11400 11300 11400
 Wire Bus Line
@@ -7521,6 +7523,4 @@ Wire Bus Line
 	8000 5950 8000 9850
 Wire Bus Line
 	14400 14250 14400 17950
-Text Notes 11800 3200 0    50   ~ 0
-Roughly 2.3~~2.4V\nsquare signal output
 $EndSCHEMATC
