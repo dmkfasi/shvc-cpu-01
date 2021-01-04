@@ -286,12 +286,6 @@ F 3 "~" H 2200 2000 50  0001 C CNN
 $EndComp
 NoConn ~ 2300 2200
 NoConn ~ 2300 1800
-Wire Wire Line
-	2000 2200 2000 2300
-Wire Wire Line
-	2200 2500 2200 2200
-Wire Wire Line
-	2100 2400 2100 2200
 Wire Bus Line
 	1500 4000 1600 4100
 Entry Wire Line
@@ -302,15 +296,6 @@ Entry Wire Line
 	1500 2600 1600 2500
 Entry Wire Line
 	1500 2700 1600 2600
-Wire Wire Line
-	1600 2300 2000 2300
-Connection ~ 2000 2300
-Wire Wire Line
-	1600 2400 2100 2400
-Connection ~ 2100 2400
-Wire Wire Line
-	1600 2500 2200 2500
-Connection ~ 2200 2500
 Text Label 1600 2300 0    50   ~ 0
 JPIO7
 Text Label 1600 2400 0    50   ~ 0
@@ -586,8 +571,6 @@ Wire Wire Line
 	1700 8350 2900 8350
 Text Label 1800 8350 0    50   ~ 0
 JPSTR
-Wire Wire Line
-	2100 2400 3300 2400
 $Comp
 L Diode:BAT54C DA10
 U 1 1 5FE7D97E
@@ -606,8 +589,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2600 4300 2600
 Wire Wire Line
-	2200 2500 3800 2500
-Wire Wire Line
 	3300 2200 3300 2400
 Connection ~ 3300 2400
 Wire Wire Line
@@ -619,8 +600,6 @@ Wire Wire Line
 Connection ~ 7600 2300
 Wire Wire Line
 	7600 2300 7400 2300
-Wire Wire Line
-	2000 2300 2800 2300
 Wire Wire Line
 	2800 2200 2800 2300
 Connection ~ 2800 2300
@@ -3672,7 +3651,7 @@ U 1 1 6E49DD10
 P 2300 17500
 F 0 "C62" H 2350 17600 50  0000 L CNN
 F 1 "2.2uF" H 2350 17400 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 2300 17500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 2300 17500 50  0001 C CNN
 F 3 "~" H 2300 17500 50  0001 C CNN
 	1    2300 17500
 	1    0    0    -1  
@@ -7433,6 +7412,24 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS126a" H 10700 21500 50  0001 C CNN
 	5    10700 21500
 	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	1600 2500 2000 2500
+Wire Wire Line
+	2100 2400 3300 2400
+Wire Wire Line
+	1600 2400 2100 2400
+Connection ~ 2100 2400
+Wire Wire Line
+	2100 2400 2100 2200
+Wire Wire Line
+	1600 2300 2200 2300
+Wire Wire Line
+	2000 2200 2000 2500
+Connection ~ 2000 2500
+Wire Wire Line
+	2000 2500 3800 2500
+Wire Wire Line
+	2200 2200 2200 2300
 Wire Bus Line
 	5000 11400 11300 11400
 Wire Bus Line
@@ -7523,4 +7520,7 @@ Wire Bus Line
 	8000 5950 8000 9850
 Wire Bus Line
 	14400 14250 14400 17950
+Connection ~ 2200 2300
+Wire Wire Line
+	2200 2300 2800 2300
 $EndSCHEMATC
