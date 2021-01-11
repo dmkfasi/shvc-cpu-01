@@ -6351,7 +6351,7 @@ U 1 1 604ABF3B
 P 18950 8550
 F 0 "J5" H 19000 8750 50  0000 C CNN
 F 1 "Audio Out Port" H 19000 8250 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 18950 8550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 18950 8550 50  0001 C CNN
 F 3 "~" H 18950 8550 50  0001 C CNN
 	1    18950 8550
 	1    0    0    -1  
@@ -6507,7 +6507,7 @@ U 1 1 61369896
 P 19050 7150
 F 0 "P4" H 19100 7350 50  0000 C CNN
 F 1 "Multi AV Out" H 19100 6850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 19050 7150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 19050 7150 50  0001 C CNN
 F 3 "~" H 19050 7150 50  0001 C CNN
 	1    19050 7150
 	1    0    0    -1  
@@ -7430,6 +7430,9 @@ Wire Wire Line
 	2000 2500 3800 2500
 Wire Wire Line
 	2200 2200 2200 2300
+Connection ~ 2200 2300
+Wire Wire Line
+	2200 2300 2800 2300
 Wire Bus Line
 	5000 11400 11300 11400
 Wire Bus Line
@@ -7520,7 +7523,4 @@ Wire Bus Line
 	8000 5950 8000 9850
 Wire Bus Line
 	14400 14250 14400 17950
-Connection ~ 2200 2300
-Wire Wire Line
-	2200 2300 2800 2300
 $EndSCHEMATC
