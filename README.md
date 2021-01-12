@@ -35,3 +35,9 @@ Notes and references:
 ![PCB](references/SNS-CPU-GPM-02.jpg)
 
 ![Block diagram](references/diagram.png) (drawings by Rodrigo Copetti)
+
+---
+
+# Work in progress
+![Front face](references/MainBoard-front.png)
+![Back face](references/MainBoard-back.png)
