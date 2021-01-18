@@ -6362,11 +6362,11 @@ Wire Wire Line
 	19250 8450 19350 8450
 Text Label 19350 8550 0    50   ~ 0
 AUDIO_ROUT
-Text Label 18650 8550 2    50   ~ 0
+Text Label 18650 8450 2    50   ~ 0
 AUDIO_LOUT
 Wire Wire Line
 	18750 8550 18650 8550
-Text Label 18650 8450 2    50   ~ 0
+Text Label 18650 8550 2    50   ~ 0
 ~MUTE
 Text Notes 19900 6650 2    50   ~ 0
 Connect to S-ENC sub-board
