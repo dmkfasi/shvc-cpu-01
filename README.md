@@ -16,9 +16,9 @@ The secondary goals of this project are as follows:
 ![S-PPU architecture](references/sppu-arch.png) (drawings by Rodrigo Copetti)
 
 Present limitations:
-* ~~S-WRAM chip package is unknown, seems like a custom one, need to measure actual chip and footprint~~ Done, but with impresice tool;
-* ~~F411 CIC chip footprint needs verification~~ Done, verified but with imprecise tool;
-* ~~S-SMP QFP-64 14x20mm needs custom designed footprint~~ Done, needs verification against real chip;
+* ~~S-WRAM chip package is unknown, seems like a custom one, need to measure actual chip and footprint~~ ~~Done, but with impresice tool~~ Verified with digital calipers;
+* ~~F411 CIC chip footprint needs verification~~ ~~Done, verified but with imprecise tool~~ Confirmed, see notes below;
+* ~~S-SMP QFP-64 14x20mm needs custom designed footprint~~ ~~Done, needs verification against real chip~~ Confirmed QFP-64 14x20mm;
 * My reference board is SNS-CPU-RGB-01;
 
 ---
@@ -26,12 +26,13 @@ Notes and references:
 
 * S-CPU, S-PPU1, S-PPU2 and S-DSP seem to be PQFP-100 14x20mm
 * SRAM, PSRAM are standard SOP-28, footprint redesigned
-* F411 CIC seems to be SSOP-18 ~6.1x7.1mm, custom footprint designed
+* F411 CIC seems to be SSOP-18 6.0x7.6mm, custom footprint designed
 * S-SMP assigned PQFP-64 1.0mm pitch footprint
-* S-WRAM assigned SOP-64 0.8mm pitch footprint
+* S-WRAM assigned SOP-64 0.8mm pitch footprint, 26.6x11.0mm body
 
-* Pin Pitch = 2.5mm (not 2.54mm)
-* PCB Thickness = 1.2mm
+* Pin pitch = 2.5mm (not 2.54mm)
+* PCB thickness = 1.2mm
+* SNS-CPU-RGB-01 PCB thickness = 1.6mm
 
 ![PCB](references/SNS-CPU-GPM-02.jpg)
 
